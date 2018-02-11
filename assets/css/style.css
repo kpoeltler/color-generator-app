@@ -15,9 +15,10 @@ h3 {
 	background: none;
 	color: rgb(249, 249, 250);
 	/* color:  rgb(9, 1, 24); */
-	font-size: 25px;
+	font-size: 16px;
 	text-align: center;
-	/* font-weight: bold; */
+	font-weight: 400;
+	
 }
 
 #info {
@@ -39,12 +40,14 @@ h3 {
 	font-size: 17px;
 	margin-right: 50px;
 	margin-bottom: 50px;
+	font-weight: 700;
 }
 
 h2 {
-	font-family: 'Adamina', serif;
+	/* font-family: 'Adamina', serif; */
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .projectInfo {
@@ -99,9 +102,9 @@ p {
 }
 
 #hexInfo {
-	font-family: 'Adamina', serif;
+	font-family: 'Montserrat', sans-serif;
 	background: none;
-	color: rgb(2, 2, 66);
+	color: rgb(255, 255, 255);
 	font-size: 97px;
 	text-align: center;
 	font-weight: 900;
@@ -111,7 +114,7 @@ p {
 #colorName {
 	font-family: 'Montserrat', sans-serif;
 	background: none;
-	color: rgb(2, 2, 66);
+	color: rgb(255, 255, 255);
 	font-size: 63px;
 	text-align: center;
 }
