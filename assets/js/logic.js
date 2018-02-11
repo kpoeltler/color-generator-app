@@ -98,7 +98,7 @@ $(document).ready(function () {
         console.log("error" + error);
       }
     }).then(function (response) {
-      $("#camera").on("click", function () {
+      $(".camera").on("click", function () {
         for (var i = 0; i < flickrPic.length; i++) {
           $("#flickr-pic" + i).attr("src", flickrPic[i]);
         }
@@ -113,7 +113,7 @@ $(document).ready(function () {
 //Click for images
 
 
-  $("#generatorBtn").click(function () {
+  $(".generator").click(function () {
     $("body").css("background-color", "#" + hex())
     // $("#cameraImages").clear(".photoInfo");
     // $("#cameraImages").clear();
@@ -129,7 +129,7 @@ $(document).ready(function () {
     $("#toggle").toggle(".projectInfo");
   });
 
-  $("#camera").click(function () {
+  $(".camera").click(function () {
     $("#cameraImages").toggle(".photoInfo");
   });
   

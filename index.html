@@ -4,8 +4,8 @@
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
 	  crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Adamina" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -15,101 +15,104 @@
 
 <body>
 
-	<div class="container-fluid">
+	<!-- <div class="container-fluid">
 
-		<div class="wrapper">
-
-			<div class="row">
-				<div class="col-xs-4 col-md-4">
-
-
-					<div id="photoSearch">
-
-						<button class="button" id="camera">
-							<h3>COLOR INSPIRED IMAGES </h3>
-
-							<!-- Flickr images appear here -->
-							<div id="cameraImages" class="photoInfo">
-								<div id="top" class="wrap">
-									<img id="flickr-pic0" src="" width="300px" />
-									<img id="flickr-pic1" src="" width="300px" class="front" />
-								</div>
-
-								<div id="center" class="wrap">
-									<img id="flickr-pic2" src="" width="300px" />
-									<img id="flickr-pic3" src="" width="300px" class="front" />
-								</div>
-							</div>
-
-
-							<!--  class="glyphicon glyphicon-camera -->
-							<!-- Error message -->
-							<div id="errorMessage" class="errorInfo">
-								<h3>AW, NO INSPIRING IMAGES!</h3>
-								<p>Sorry, we are still working out the kinks. Here is a link to a puppy video.</p>
-								<a href="https://www.youtube.com/watch?v=f6OPAwpKO1o">Puppies are Here</a>
-							</div>
-
-						</button>
-
+		<div class="wrapper"> -->
+	<header>
+		<div class="row">
+			<div class="col-xs-12 col-md-4">
+				<div id="photoSearch">
+<div>
+					<button class="button glyphicon glyphicon-camera camera">
 					</div>
+						<!-- <h3>INSPIRED IMAGES </h3> -->
+					
+						<!-- Flickr images appear here -->
+						<div id="cameraImages" class="photoInfo">
+							<div id="top" class="wrap">
+								<img id="flickr-pic0" src="" width="300px" />
+								<img id="flickr-pic1" src="" width="300px" class="front" />
+							</div>
+
+							<div id="center" class="wrap">
+								<img id="flickr-pic2" src="" width="300px" />
+								<img id="flickr-pic3" src="" width="300px" class="front" />
+							</div>
+						</div>
+
+
+						<!--  class="glyphicon glyphicon-camera -->
+						<!-- Error message -->
+						<div id="errorMessage" class="errorInfo">
+							<h3>AW, NO INSPIRING IMAGES!</h3>
+							<p>Sorry, we are still working out the kinks. Here is a link to a puppy video.</p>
+							<a href="https://www.youtube.com/watch?v=f6OPAwpKO1o">Puppies are Here</a>
+						</div>
+
+					</button>
 
 				</div>
 
-				<div class="col-xs-4 col-md-4">
-					<div id="generator">
-						<button class="button" id="generatorBtn">
-							<h3> EXPERIENCE A NEW COLOR</h3>
-						</button>
-					</div>
-					<div>
-						<h1 id="hexInfo"></h1>
-						<h1 id="colorName"></h1>
-					</div>
-				</div>
-
-				<div class="col-xs-4 col-md-4">
-					<div>
-						<button class= "button" id="info">
-							<h3>HOW WE HELP DESIGNERS</h3>
-							<div id="toggle" class="projectInfo">
-								<h2>Welcome to One Color Generator </h2>
-								<hr>
-								
-								<p> Click 'EXPERIENCE A NEW COLOR' to view a random hex value. Feel free, to  copy the hex value into programs such as: Adobe Photoshop, code editors, or even your favorite color palette generator.
-								</p>
-
-								<p> Click 'COLOR INSPIRED IMAGES' to view Flickr images that we are hopeful may showcase the color displayed on the screen. </p>
-									<p> In theory, Flickr images will match perfectly. However, as of 2018 there is no public API that is able to recognize hex values within images. So, bear this in mind when using this feature. 
-								</p>
-								<p> We feel hopeful that this one at a time color generator will serve to inspire creative insights among designers and artists.  </p>
-								<hr>
-								<p> 
-									Contributors:
-									<a href="https://github.com/CraigD89">Craig, </a>
-									<a href="https://github.com/jennaconway">Jenna </a>
-									<a href="https://github.com/kpoeltler"> and Katie</a>
-								</p>
-
-								<p>
-									Special thanks:
-									<a href="https://github.com/LeahNelson">Leah</a>
-
-								</p>
-
+			</div>
+			
+					<div class="col-xs-12 col-md-4">
+						<div class="generator">
+							<button class="button">
+								<div class="generator"></div>
+								<h1 id="hexInfo"></h1>
+								<h1 id="colorName"></h1>
+							</button>
 							</div>
+						</div>
+					
 
-						</button>
-					</div>
 
+			<div class="col-xs-12 col-md-4">
+				<div>
+					<button class="button" id="info">
+						<h3>?</h3>
+						<div id="toggle" class="projectInfo">
+							<h2>Welcome to One Color Generator </h2>
+							<hr>
+
+							<p> We feel hopeful that this one at a time color generator will serve to inspire creative insights among designers and
+								artists.
+							</p>
+							<p>Click the hex value to generate a random color. Feel free, to copy the hex value into programs such as: Adobe Photoshop,
+								code editors, or even your favorite color palette generator.
+							</p>
+
+							<p> Click 'INSPIRED IMAGES' to view Flickr images </p>
+							<p> Ideally, all Flickr images will showcase the displayed. However, as of 2018 there is no public API that is able to
+								recognize hex values within images. So, bear this in mind when using this feature.
+							</p>
+
+							<hr>
+							<p>
+								Contributors:
+								<a href="https://github.com/CraigD89">Craig, </a>
+								<a href="https://github.com/jennaconway">Jenna </a>
+								<a href="https://github.com/kpoeltler"> and Katie</a>
+							</p>
+
+							<p>
+								Special thanks:
+								<a href="https://github.com/LeahNelson">Leah</a>
+
+							</p>
+
+						</div>
+
+					</button>
 				</div>
 
 			</div>
 
 		</div>
-	</div>
-
+	</header>
 	
+	
+
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/logic.js"></script>
 
