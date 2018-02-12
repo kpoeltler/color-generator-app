@@ -10,6 +10,7 @@ h3 {
 	background: none;
 	color: rgb(249, 249, 250);
 	/* color:  rgb(9, 1, 24); */
+
 	font-size: 40px;
 	text-align: center;
 	font-weight: 900;
@@ -22,6 +23,7 @@ h3 {
 	margin-top: 50%;
 	margin-right: 50%;
 	text-align: center;
+
 }
 
 #info {
@@ -43,12 +45,15 @@ h3 {
 	font-size: 17px;
 	margin-right: 50px;
 	margin-bottom: 50px;
+	font-weight: 700;
 }
 
 h2 {
+
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	font-weight: 900;
+
 }
 
 .projectInfo {
@@ -108,12 +113,13 @@ margin-top: 30px;
 margin-left:30px;
 
 	color: rgb(249, 249, 250);
-	font-size: 40px;
-	text-align: center;
-	font-weight: 900;
-	background-color: transparent;
-	position: absolute;
-	/* font-weight: bold; */
+	font-size: 40px
+#hexInfo {
+	font-family: 'Montserrat', sans-serif;
+	background: none;
+	color: rgb(255, 255, 255);
+	font-size: 97px;
+
 	
 	/* position: fixed; */
 	
@@ -125,6 +131,7 @@ margin-left:30px;
 	width: 100%;
 	font-size: 66px;
 	font-weight: 800;
+
 }
 
 #colorName {
