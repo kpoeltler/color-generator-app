@@ -2,23 +2,28 @@ html body {
 	margin: 0 auto;
 	height: 100%;
 	overflow: hidden;
-	/* font-family: 'Montserrat', sans-serif; */
-	/* font-weight: bold; */
 }
 
-/* .row {
-	height: 300px;
-} */
-
 h3 {
+	margin-top:30px;
 	font-family: 'Montserrat', sans-serif;
 	background: none;
 	color: rgb(249, 249, 250);
 	/* color:  rgb(9, 1, 24); */
-	font-size: 16px;
+
+	font-size: 40px;
 	text-align: center;
-	font-weight: 400;
-	
+	font-weight: 900;
+}
+
+.generator {
+	font-family: 'Montserrat', sans-serif;
+	background: none;
+	color: rgb(255, 255, 255);
+	margin-top: 50%;
+	margin-right: 50%;
+	text-align: center;
+
 }
 
 #info {
@@ -44,10 +49,11 @@ h3 {
 }
 
 h2 {
-	/* font-family: 'Adamina', serif; */
+
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
-	font-weight: 700;
+	font-weight: 900;
+
 }
 
 .projectInfo {
@@ -62,7 +68,7 @@ button {
 	background-color: transparent;
 	opacity: 0.4;
 	transition: 0.3s;
-	width: 300px;
+	width: 100%;
 }
 
 .button:hover {
@@ -99,32 +105,38 @@ p {
 	color: white;
 	background-color: none;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
 }
 
+.camera {
+margin-top: 30px;
+margin-left:30px;
+
+	color: rgb(249, 249, 250);
+	font-size: 40px
 #hexInfo {
 	font-family: 'Montserrat', sans-serif;
 	background: none;
 	color: rgb(255, 255, 255);
 	font-size: 97px;
-	text-align: center;
-	font-weight: 900;
-	margin-top: 35%;
+
+	
+	/* position: fixed; */
+	
+	width: 300px;
+	
+}
+
+#hexInfo {
+	width: 100%;
+	font-size: 66px;
+	font-weight: 800;
+
 }
 
 #colorName {
-	font-family: 'Montserrat', sans-serif;
-	background: none;
-	color: rgb(255, 255, 255);
-	font-size: 63px;
-	text-align: center;
-}
-
-#generatorBtn {
-	margin-left: 190px;
-	bottom: 0;
-	width: 27%;
-	background-color: none;
-	text-align: center;
+	width: 100%;
+	font-size: 43px;
 }
 
 #information {
@@ -146,7 +158,9 @@ p {
 } */
 
 #cameraImages {
-	float: right;
+	/* float: right; */
+	margin-top:100px;
+	margin-left: 30px;
 }
 
 .photoInfo {
